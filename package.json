@@ -1,9 +1,8 @@
 {
-  "name": "skyway",
+  "name": "alan-npm-test",
   "version": "1.0.1",
-  "description": "The JS client library for SkyWay",
+  "description": "",
   "main": "dist/skyway.js",
-  "module": "src/peer.js",
   "scripts": {
     "test": "karma start ./karma.conf.js",
     "clean": "del ./dist",
@@ -16,6 +15,12 @@
     "type": "git",
     "url": "https://github.com/skyway/skyway-js-sdk"
   },
+  "files": [
+    "dist/*",
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md"
+  ],
   "author": "NTT Communications Corp.",
   "license": "MIT",
   "devDependencies": {
