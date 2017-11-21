@@ -31,11 +31,11 @@ import Peer from 'skyway-sdk';
 const peer = new Peer({key: 'your-api-key'});
 ```
 
-### Docs
+## Docs
 
-[API reference](https://webrtc.ecl.ntt.com/en/js-reference/)
-[Tutorial](https://webrtc.ecl.ntt.com/en/js-tutorial.html)
-[Sample Code](https://github.com/skyway/skyway-js-sdk/tree/master/examples/)
+- [API reference](https://webrtc.ecl.ntt.com/en/js-reference/)([日本語](https://webrtc.ecl.ntt.com/js-reference/))
+- [Tutorial](https://webrtc.ecl.ntt.com/en/js-tutorial.html)([日本語](https://webrtc.ecl.ntt.com/js-tutorial.html)
+- [Sample Code](https://github.com/skyway/skyway-js-sdk/tree/master/examples/)
 
 ## Examples
 
