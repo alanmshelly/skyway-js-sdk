@@ -1,17 +1,19 @@
-# SkyWay JS
+# SkyWay JavaScript SDK
 
-## Including the sdk from the CDN
+## Using the SDK
 
-Include the following script tag in your html.
+### Including the sdk from the CDN in your html
+
+Add the following script tag to your html file.
 
 ```html
 <script type="text/javascript" src="https://cdn.webrtc.ecl.ntt.com/skyway-latest.js"></script>
 ```
 
 You can then use the `Peer` object to start connecting.
-For more details, check out the [Tutorial](https://webrtc.ecl.ntt.com/en/js-tutorial.html).
+For more details, check out the [Tutorial](https://webrtc.ecl.ntt.com/en/js-tutorial.html). ([日本語](https://webrtc.ecl.ntt.com/js-tutorial.html))
 
-## Installing using npm
+### Installing using npm to use with a bundler (e.g. webpack or browserify)
 
 With [npm](https://npmjs.org/) installed, run
 
@@ -28,6 +30,12 @@ const peer = new Peer({key: 'your-api-key'});
 import Peer from 'skyway-sdk';
 const peer = new Peer({key: 'your-api-key'});
 ```
+
+### Docs
+
+[API reference](https://webrtc.ecl.ntt.com/en/js-reference/)
+[Tutorial](https://webrtc.ecl.ntt.com/en/js-tutorial.html)
+[Sample Code](https://github.com/skyway/skyway-js-sdk/tree/master/examples/)
 
 ## Examples
 
