@@ -10,7 +10,7 @@
     "build": "NODE_ENV=production webpack",
     "dev": "webpack -w",
     "doc": "jsdoc -c ./jsdoc.config.js",
-    "install": "npm run build"
+    "install": "pwd"
   },
   "repository": {
     "type": "git",
